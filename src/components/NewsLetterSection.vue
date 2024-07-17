@@ -6,7 +6,7 @@ import Button from "./ui/Button.vue";
 <template>
   <section class="relative mt-36 pb-16">
     <form
-      class="absolute left-1/2 top-1/2 z-50 mx-auto flex max-w-[39.4375rem] -translate-x-1/2 -translate-y-1/2 flex-col gap-8 shadow-white drop-shadow-xl max-md:min-w-full max-md:px-5 lg:!w-[39.45rem]"
+      class="absolute left-1/2 top-1/2 z-40 mx-auto flex max-w-[39.4375rem] -translate-x-1/2 -translate-y-1/2 flex-col gap-8 shadow-white drop-shadow-xl max-md:min-w-full max-md:px-5 lg:!w-[39.45rem]"
     >
       <SectionHeader>
         <template #title>Subscribe To Our Newsletter</template>

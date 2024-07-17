@@ -7,7 +7,7 @@ const openFilters = defineModel<boolean>("openFilters", { required: true });
 
 <template>
   <div
-    :class="`left-1/2 top-1/2 z-50 h-[95%] w-[95%] flex-col gap-10 rounded-xl bg-white p-4 shadow-2xl max-lg:-translate-x-1/2 max-lg:-translate-y-1/2 lg:col-span-2 lg:col-start-1 lg:row-span-2 lg:!flex lg:h-auto lg:w-auto lg:gap-8 lg:bg-none lg:shadow-none ${openFilters ? 'fixed flex' : 'hidden'}`"
+    :class="`left-1/2 top-1/2 z-40 h-[95%] w-[95%] flex-col gap-10 rounded-xl bg-white p-4 shadow-2xl max-lg:-translate-x-1/2 max-lg:-translate-y-1/2 lg:col-span-2 lg:col-start-1 lg:row-span-2 lg:!flex lg:h-auto lg:w-auto lg:gap-8 lg:bg-none lg:shadow-none ${openFilters ? 'fixed flex' : 'hidden'}`"
   >
     <button @click="openFilters = false" class="self-end lg:hidden">
       <XMarkIcon class="size-7" />
